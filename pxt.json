@@ -1,0 +1,31 @@
+{
+    "name": "mbit-more-v2-0_2_3",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "pxt-mbit-more-v2": "pkg:pxt-mbit-more-v2.json",
+        "wuKong": "github:elecfreaks/pxt-wukong#v1.4.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "pxt-mbit-more-v2.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.9",
+        "tag": "v4.0.9",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/6c8222ce4e46b32453a41dc0fe5b41ba75aa2990",
+        "target": "4.0.17",
+        "pxt": "7.0.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
